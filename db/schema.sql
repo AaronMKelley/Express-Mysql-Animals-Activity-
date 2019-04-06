@@ -4,7 +4,8 @@ CREATE DATABASE animals_db;
 
 USE animals_db;
 
-CREATE TABLE animals (
-    id INT NOT NULL AUTO_INCREMENT PRIMARY,
-    animal_name
+CREATE TABLE actors (
+    id INT AUTO_INCREMENT, 
+    animal_name VARCHAR(255),
+    PRIMARY KEY(id)
 );
