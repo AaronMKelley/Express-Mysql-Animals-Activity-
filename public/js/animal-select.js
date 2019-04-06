@@ -6,7 +6,7 @@ function getAnimal(){
         url: '/animals.json',
         method: 'GET'
     }).then(function(animals){
-        for (var animalsIndex in animals){
+        for (var animalIndex in animals){
 
             var p= $('<p>');
 
